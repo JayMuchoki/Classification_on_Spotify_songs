@@ -2,6 +2,8 @@ import pandas as pd
 import streamlit as st
 import joblib
 import base64
+import sklearn
+print(sklearn.__version__)
 
 # Set page config
 st.set_page_config(page_title="🎶 Streamify Song Vibe Classifier", layout="wide")
